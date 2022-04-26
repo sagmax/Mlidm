@@ -26,6 +26,12 @@
 <canvas id="canvas"></canvas>
 </div>
 <script src="Matrix.js"></script>
+<img class="squid1" src="https://media4.giphy.com/media/jepNhL14TGHJe/giphy.gif?cid=ecf05e47vplene9uaajw4ln7k15d2kz76d1geclyq4f60ivt&rid=giphy.gif&ct=g">
+<img class="squid2" src="https://media4.giphy.com/media/jepNhL14TGHJe/giphy.gif?cid=ecf05e47vplene9uaajw4ln7k15d2kz76d1geclyq4f60ivt&rid=giphy.gif&ct=g">
+<img class="squid3" src="https://media4.giphy.com/media/jepNhL14TGHJe/giphy.gif?cid=ecf05e47vplene9uaajw4ln7k15d2kz76d1geclyq4f60ivt&rid=giphy.gif&ct=g">
+<img class="squid4" src="https://media4.giphy.com/media/jepNhL14TGHJe/giphy.gif?cid=ecf05e47vplene9uaajw4ln7k15d2kz76d1geclyq4f60ivt&rid=giphy.gif&ct=g">
+<img class="squid5" src="https://media4.giphy.com/media/jepNhL14TGHJe/giphy.gif?cid=ecf05e47vplene9uaajw4ln7k15d2kz76d1geclyq4f60ivt&rid=giphy.gif&ct=g">
+<img class="squid6" src="https://media4.giphy.com/media/jepNhL14TGHJe/giphy.gif?cid=ecf05e47vplene9uaajw4ln7k15d2kz76d1geclyq4f60ivt&rid=giphy.gif&ct=g">
 <div class="Labs">
     <div class="Mylab">
         Мои лабораторные работы!??
