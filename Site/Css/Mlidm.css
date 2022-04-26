@@ -1,5 +1,42 @@
+.squid1{
+    position: absolute;
+    left: 100px;
+    margin-top: 12%;
+}
+.squid2{
+    position: absolute;
+    left: 400px;
+    margin-top: 12%;
+    height: 220px;
+    width: 220px;
+}
+.squid3{
+    position: absolute;
+    left: 700px;
+    margin-top: 12%;
+    height: 180px;
+    width: 180px;
+}
+.squid4{
+    position: absolute;
+    left: 1000px;
+    margin-top: 12%;
+    height: 180px;
+    width: 180px;
+}
+.squid5{
+    position: absolute;
+    left: 1300px;
+    margin-top: 12%;
+    height: 220px;
+    width: 220px;
+}
+.squid6{
+    position: absolute;
+    left: 1600px;
+    margin-top: 12%;
+}
 body {
-    /* background: url('https://media1.giphy.com/media/PqXQV58Tva7DO/giphy.gif?cid=790b761129ae23430ac60cdcddaa7c0769c0ea899cc74afd&rid=giphy.gif&ct=g'); */
     margin: 0%;
 }
 .Main{
