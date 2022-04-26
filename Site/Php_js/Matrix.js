@@ -19,72 +19,17 @@ window.addEventListener('resize', function(event) {
 }, true);
 
 let charArr = [
-  "a",
-  "b",
-  "c",
-  "d",
-  "e",
-  "f",
-  "g",
-  "h",
-  "i",
-  "j",
-  "k",
-  "l",
-  "m",
-  "n",
-  "o",
-  "p",
-  "q",
-  "r",
-  "s",
-  "t",
-  "u",
-  "v",
-  "w",
-  "x",
-  "y",
-  "z",
+  "0",
   "1",
-  "2",
-  "3",
-  "4",
-  "5",
-  "6",
-  "7",
-  "8",
-  "А",
-  "В",
-  "Г",
-  "Д",
-  "Є",
-  "Ѕ",
-  "З",
-  "И",
-  "Ѳ",
-  "І",
-  "К",
-  "Л",
-  "М",
-  "Н",
-  "Ѯ",
-  "Ѻ",
-  "П",
-  "Ч",
-  "Р",
-  "С",
-  "Т",
-  "Ѵ",
-  "Ф",
-  "Х",
-  "Ѱ",
-  "Ѿ",
-  "Ц",
+  "1",
+  "0",
+  "1",
+  "0",
 ];
 
-let maxCharCount = 300;
+let maxCharCount = 80;
 let fallingCharArr = [];
-let fontSize = 13;
+let fontSize = 18;
 let maxColumns = cw / fontSize;
 
 
@@ -99,7 +44,7 @@ class FallingChar {
   draw(ctx) {
     this.value =
       charArr[Math.floor(Math.random() * (charArr.length - 1))].toUpperCase();
-    this.speed = (Math.random() * fontSize * 3) / 4 + (fontSize * 3) / 4;
+    this.speed = (Math.random() * fontSize*2 ) / 4 + (fontSize*2 ) / 4;
 
     ctx.fillStyle = "rgba(0,255,0)";
     ctx.font = fontSize + "px sans-serif";
@@ -109,7 +54,7 @@ class FallingChar {
     if (this.y > ch) {
       this.y = (Math.random() * ch) / 2 - 50;
       this.x = Math.floor(Math.random() * maxColumns) * fontSize;
-      this.speed = (-Math.random() * fontSize * 3) / 4 + (fontSize * 3) / 4;
+      this.speed = (-Math.random() * fontSize*2 ) / 4 + (fontSize *2) / 4;
     }
   }
 }
