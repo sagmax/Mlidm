@@ -40,15 +40,6 @@
 		<div class="ssilka"><a class="ssilka" href="Oblozhka.php">На главную</a></div>
 	</div>			
 </div>
-        <script>
-            function guidance(element){
-                element.setAttribute("class", "guidance");
-            }
-            function noguidance(element){
-                element.setAttribute("class", "noguidance");
-            } 
-        </script>	
-
 </body>
 
 </html>
