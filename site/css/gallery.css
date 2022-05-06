@@ -78,7 +78,7 @@ flex-direction: row;align-items: center;}
     padding-top: 4%;
     padding-right: 10px;
     flex-direction: row;
-align-items: center;justify-content: space-around;}
+align-items: center;justify-content: center;}
 .elementImg {
     width: 800px;  
 }
@@ -102,15 +102,8 @@ canvas {
     width: 100%;
     height: 100%;
     left: 0;
-   
 }
-.button1{
-    position: absolute;
-    left: 27%;
-    top: 58%;
-}
-.button2{
-    position: absolute;
-    right: 27%;
-    top: 58%;
+#mainImage{
+    width: 800px;
+    height: 500px;
 }
