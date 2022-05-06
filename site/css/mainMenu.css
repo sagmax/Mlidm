@@ -1,0 +1,108 @@
+body {
+    
+    margin: 0%;
+}
+@media (max-width: 600px) {
+
+    body {
+        display: inline;
+    }
+}
+
+.b {
+    font-size: 1.7rem;
+    color: brown;
+    text-decoration: none;
+}
+.Main{
+    position: relative;
+    border-bottom: 2px solid rgba(202, 12, 12, 0.718);
+    background-color: rgb(31, 29, 29);
+    height: 70px;
+    width: 100%;
+    display: flex; 
+justify-content: space-between;flex-direction: row;}
+.column2 {
+    font-size: 1.6rem; 
+   padding-right: 50px;
+   color: rgb(187, 187, 187);
+   display: flex;
+flex-direction: row;align-items: center;}
+.column1 {
+   font-size: 1.6rem;   
+   padding-left: 50px;
+  color: rgb(187, 187, 187);
+  display: flex;
+flex-direction: row;align-items: center;}
+
+.ctr {
+    text-decoration: none;
+    font-size: 1.6rem; 
+    padding: 20px 20px;  
+    color: rgb(198, 157, 219); 
+    white-space:nowrap;
+}
+.ctr:hover {
+    text-decoration: none;
+    font-size: 1.6rem; 
+    padding: 20px 20px; 
+    color: rgb(251, 250, 252); 
+    white-space:nowrap;
+}
+.colocol {
+    margin-left: 20px;  
+}
+.Photo{
+    display: flex;
+    padding-left: 6%;
+    padding-top: 5%;
+    
+}
+.Iam{
+    width: 450px;
+    height: 600px;
+    border-bottom: 5px solid rgba(202, 12, 12, 0.700);
+    border-top: 5px solid rgba(202, 12, 12, 0.700);
+    border-left: 5px solid rgba(202, 12, 12, 0.700);
+    border-right: 5px solid rgba(202, 12, 12, 0.700); 
+}
+.Text{
+    
+    
+    padding-top: 5%;
+}
+.Cherta{
+    margin-left: 10%;
+    margin-top: 3%;
+    height: 700px;
+    border-left: 5px solid rgba(202, 12, 12, 0.718);
+}
+.Tema{
+    display:flex;
+    position: relative;
+justify-content: flex-start;}
+ 
+canvas {
+    position: absolute;
+    width: 100%;
+    height: 92.29%;
+    left: 0;
+}
+.MainStroka{
+    margin-left: 10%;
+    position: absolute;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 2.2rem;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+}
+.Stroki{
+    position: absolute;
+    margin-left: 5%;
+    font-size: 1.8rem;
+    padding-top: 3%;
+    color: rgba(255, 255, 255, 0.8);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+th{
+    margin-left: 5%;
+}

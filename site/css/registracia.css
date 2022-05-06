@@ -1,0 +1,170 @@
+body{
+    margin: 0; 
+}
+.avtorizacia{
+    position: relative;
+	width: 28.4%;
+	height: 100%;
+	margin-left: 36%;
+	margin-right: 36%;
+	margin-top: 8%;
+	background: rgba(51, 50, 46, 0.9);
+	border: 25px;
+}
+.verh{
+	width: 100%;
+	height: 50px;
+	background-color: rgba(29, 28, 26, 0.9);
+	border: 25px;
+}
+.slovo{
+	width: 100%;
+	text-align: center;
+	line-height: 45px;
+	font-size: 32pt;
+	font-family: 'Rubik', sans-serif;
+	justify-content: flex-start;
+}
+.avtorizaciya{
+    width: 68.4%;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 16%;
+	margin-right: 16%; 
+}
+.avtorizaciy{
+    width: 70%;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 16%;
+	margin-right: 17%; 
+}
+.file{
+    width: 68.4%;
+    height: 25px;
+    border-radius: 5px;
+    text-align: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-right: 16%;
+    margin-left: 19%;
+    color: white;
+}
+.spisok{
+    list-style-type: none;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    padding-left: 0; 
+    margin: 0;
+    color: white;
+}
+.ssilka{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 2.5%;
+}
+.ssilku{
+	text-align: center;
+	padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
+.spisok{
+    justify-content: flex-end;
+    font-size: 25pt; 
+    width: 100%;
+    margin-right: 0;
+    padding-left: 0;
+}
+str {
+    margin-left: 0.6%;  
+}
+.b {
+    font-size: 1.7rem;
+    color: brown;
+    text-decoration: none;
+}
+.Main{
+    position: relative;
+    border-bottom: 2px solid rgba(202, 12, 12, 0.718);
+    background-color: rgb(31, 29, 29);
+    height: 70px;
+    width: 100%;
+    display: flex; 
+justify-content: space-between;flex-direction: row;}
+.column2 {
+    font-size: 1.6rem; 
+   padding-right: 50px;
+   color: rgb(187, 187, 187);
+   display: flex;
+flex-direction: row;align-items: center;}
+.column1 {
+   font-size: 1.6rem;   
+   padding-left: 50px;
+  color: rgb(187, 187, 187);
+  display: flex;
+flex-direction: row;align-items: center;}
+
+.ctr {
+    text-decoration: none;
+    font-size: 1.6rem; 
+    padding: 20px 20px;  
+    color: rgb(198, 157, 219); 
+    white-space:nowrap;
+}
+.ctr:hover {
+    text-decoration: none;
+    font-size: 1.6rem; 
+    padding: 20px 20px; 
+    color: rgb(251, 250, 252); 
+    white-space:nowrap;
+}
+.colocol {
+    margin-left: 20px;  
+}
+canvas {
+    position: absolute;
+    width: 100%;
+    height: 92.29%;
+    left: 0;
+}
+.logout{
+    position: absolute;
+    right: 3%;
+    top: 10%;
+    font-size: 1.6rem;   
+    color: white;
+    
+}
+.list{
+    position: relative;
+    margin-left: 8%;
+}
+td{
+    border: 2px solid rgba(202, 12, 12, 0.718);
+    color:white;
+    min-width: 30px;
+    text-align: center;
+}
+.htr{
+    position: relative;
+    margin-top: 3%;
+    margin-left: 15%;
+   
+    color:white;
+    padding-bottom: 10px;
+}
+.avatarimg{
+    height: 80px;
+    width: 100px;
+}
+.iconcs
+{
+    width: 20px;
+    height: 20px;
+}
