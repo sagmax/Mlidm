@@ -41,14 +41,13 @@
     </div>
 </div>
 <div class="gallery">
-   
+    <input class="button1" type="button" value="left"  onclick="leftImg()" />
      <div id="mainImage">
 
     </div>
-    
+    <input class="button2" type="button" value="right"  onclick="rightImg()"/> 
 </div>
-<input class="button1" type="button" value="left"  onclick="leftImg()" />
-<input class="button2" type="button" value="right"  onclick="rightImg()"/> 
+ 
 </body>
 
 </html>
