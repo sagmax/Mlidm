@@ -1,0 +1,143 @@
+.gomer{
+    width: 480px;
+}
+d {
+    font-size: 2.8rem;
+    font-family: monospace;
+    color: rgb(133, 218, 224);
+    background-color:rgba(53, 50, 50, 0.63);
+    font-style: italic;
+    margin-left: 10%;
+    line-height: 900%;
+}
+pr {
+    font-size: 1.6rem; 
+    color: rgba(253, 253, 253, 0.705);
+    font-style: italic;
+    margin-left: 60%;
+    
+}
+k {
+    font-weight:bold;
+    color:rgb(127, 129, 129);
+    
+    font-size: 2.6rem;
+}
+body {
+    background-color: rgb(0, 0, 0);
+    margin: 0%;
+}
+.Main{
+    position: relative;
+    border-bottom: 2px solid rgba(202, 12, 12, 0.718);
+    background-color: rgb(31, 29, 29);
+    height: 70px;
+    width: 100%;
+    display: flex; 
+justify-content: space-between;flex-direction: row;}
+.b {
+    font-size: 1.7rem;
+    color: brown;
+    text-decoration: none;
+}
+.column2 {
+    font-size: 1.6rem; 
+   padding-right: 50px;
+   color: rgb(187, 187, 187);
+   display: flex;
+flex-direction: row;align-items: center;}
+.column1 {
+   font-size: 1.6rem;   
+   padding-left: 50px;
+  color: rgb(187, 187, 187);
+  display: flex;
+flex-direction: row;align-items: center;}
+
+.ctr {
+    text-decoration: none;
+    font-size: 1.6rem; 
+    padding: 20px 20px;  
+    color: rgb(198, 157, 219); 
+    white-space:nowrap;
+}
+.ctr:hover {
+    text-decoration: none;
+    font-size: 1.6rem; 
+    padding: 20px 20px; 
+    color: rgb(251, 250, 252); 
+    white-space:nowrap;
+}
+.colocol {
+    margin-left: 20px;  
+}
+.steam{
+    display: flex;
+    height: 80px;
+    width: 80px;
+}
+.tg{
+    display: flex;
+    height: 80px;
+    width: 80px;  
+    padding-left: 40px;
+}
+.vk{
+    display: flex;
+    height: 80px;
+    width: 80px;
+    padding-left: 40px;
+}
+.git{
+    display: flex;
+    height: 80px;
+    width: 80px; 
+    padding-left: 40px;
+}
+.znachki{
+    padding-top: 40px;
+    display: flex;
+flex-direction: row;}
+.cherta{
+    position: relative;
+    border-bottom: 4px solid rgba(202, 12, 12, 0.718);
+    margin-left: 10%;
+    height: 60px;
+    width: 80%;
+}
+.contact{
+    position: relative;
+    display: flex;
+justify-content: space-around;}
+.text{
+    color: rgba(240, 255, 255, 0.8);
+    font-size: 2.5rem;
+    padding-right: 6%;
+}
+.s{
+    padding-top: 150px;
+}
+.g{
+    padding-top: 150px;
+
+}
+.video {
+    padding-top: 80px;
+    
+}
+.column{
+    position: relative;
+    display: flex;
+align-items: center;justify-content: space-around;}
+.nick{
+    padding-top: 40px;
+}
+k{
+    font-size: 3.2rem;
+    color: rgba(240, 255, 255, 0.9);
+}
+canvas {
+    position: absolute;
+    width: 100%;
+    height: 92.29%;
+    left: 0;
+}
