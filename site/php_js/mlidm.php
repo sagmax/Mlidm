@@ -31,22 +31,27 @@
         </div>   
     </div>
 </div>
-<img class="squid1" src="https://media4.giphy.com/media/jepNhL14TGHJe/giphy.gif?cid=ecf05e47vplene9uaajw4ln7k15d2kz76d1geclyq4f60ivt&rid=giphy.gif&ct=g">
-<img class="squid2" src="https://media4.giphy.com/media/jepNhL14TGHJe/giphy.gif?cid=ecf05e47vplene9uaajw4ln7k15d2kz76d1geclyq4f60ivt&rid=giphy.gif&ct=g">
-<img class="squid3" src="https://media4.giphy.com/media/jepNhL14TGHJe/giphy.gif?cid=ecf05e47vplene9uaajw4ln7k15d2kz76d1geclyq4f60ivt&rid=giphy.gif&ct=g">
-<img class="squid4" src="https://media4.giphy.com/media/jepNhL14TGHJe/giphy.gif?cid=ecf05e47vplene9uaajw4ln7k15d2kz76d1geclyq4f60ivt&rid=giphy.gif&ct=g">
-<img class="squid5" src="https://media4.giphy.com/media/jepNhL14TGHJe/giphy.gif?cid=ecf05e47vplene9uaajw4ln7k15d2kz76d1geclyq4f60ivt&rid=giphy.gif&ct=g">
-<img class="squid6" src="https://media4.giphy.com/media/jepNhL14TGHJe/giphy.gif?cid=ecf05e47vplene9uaajw4ln7k15d2kz76d1geclyq4f60ivt&rid=giphy.gif&ct=g">
 <div class="Labs">
     <div class="Mylab">
         Мои лабораторные работы.
-    </div>   
+    </div> 
+</div>
+<div class="squid">
+    <img class="squid1" src="https://media4.giphy.com/media/jepNhL14TGHJe/giphy.gif?cid=ecf05e47vplene9uaajw4ln7k15d2kz76d1geclyq4f60ivt&rid=giphy.gif&ct=g">
+    <img class="squid2" src="https://media4.giphy.com/media/jepNhL14TGHJe/giphy.gif?cid=ecf05e47vplene9uaajw4ln7k15d2kz76d1geclyq4f60ivt&rid=giphy.gif&ct=g">
+    <img class="squid3" src="https://media4.giphy.com/media/jepNhL14TGHJe/giphy.gif?cid=ecf05e47vplene9uaajw4ln7k15d2kz76d1geclyq4f60ivt&rid=giphy.gif&ct=g">
+    <img class="squid4" src="https://media4.giphy.com/media/jepNhL14TGHJe/giphy.gif?cid=ecf05e47vplene9uaajw4ln7k15d2kz76d1geclyq4f60ivt&rid=giphy.gif&ct=g">
+    <img class="squid5" src="https://media4.giphy.com/media/jepNhL14TGHJe/giphy.gif?cid=ecf05e47vplene9uaajw4ln7k15d2kz76d1geclyq4f60ivt&rid=giphy.gif&ct=g">
+    <img class="squid6" src="https://media4.giphy.com/media/jepNhL14TGHJe/giphy.gif?cid=ecf05e47vplene9uaajw4ln7k15d2kz76d1geclyq4f60ivt&rid=giphy.gif&ct=g">
+</div>
+<div class="Labs">
+    
     <div class="Dislab">
         <t>Дискретная математика:</t><br><br>
         <a href="/mlidm/mlidmLab1.php" class="mlidm"> Лаб 1: Множества</a>
         <a href="/mlidm/mlidmLab2.php" class="mlidm"> Лаб 2: Массив 4х4</a>
         <a href="/mlidm/mlidmLab3.php" class="mlidm"> Лаб 3: Отношения</a>
-        <a href="/mlidm/mlidmLab4.php" class="mlidm"> Лаб 4</a>
+        <a href="/mlidm/mlidmLab4.php" class="mlidm"> Лаб 4: Графы</a>
         <a href="/mlidm/mlidmLab5.php" class="mlidm"> Лаб 5</a>
     </div>   
 </div>

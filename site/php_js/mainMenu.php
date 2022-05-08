@@ -9,7 +9,8 @@
     <link href='http://fonts.googleapis.com/css?family=Stalinist+One&amp;amp;amp;subset=cyrillic' rel='stylesheet' type='text/css' >
     <link rel="stylesheet" href="/site/css/mainMenu.css">
 </head>
-
+<canvas id="canvas"></canvas>
+<script src="matrix.js"></script>
 <body>
 <div class="Main">
     <div class="column1">
@@ -30,8 +31,7 @@
         </div>   
     </div>
 </div>
-<canvas id="canvas"></canvas>
-<script src="matrix.js"></script>
+
 <div class="Tema">
     <div class="Photo">
         <img class="Iam" src='/site/img/MyPhoto.jpg'>
