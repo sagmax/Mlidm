@@ -52,7 +52,7 @@
         <a href="/mlidm/mlidmLab2.php" class="mlidm"> Лаб 2: Массив 4х4</a>
         <a href="/mlidm/mlidmLab3.php" class="mlidm"> Лаб 3: Отношения</a>
         <a href="/mlidm/mlidmLab4.php" class="mlidm"> Лаб 4: Графы</a>
-        <a href="/mlidm/mlidmLab5.php" class="mlidm"> Лаб 5</a>
+        <a href="/mlidm/mlidmLab5.php" class="mlidm"> Лаб 5: Матрица достижимости</a>
     </div>   
 </div>
 </body>
