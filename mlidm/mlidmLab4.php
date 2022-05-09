@@ -47,13 +47,6 @@ for ($i = 0; $i < count($matrix); $i++) {
     echo("<br>");
 }
 for ($i = 0; $i < count($matrix); $i++) {
-    for ($j = 0; $j < count($matrix[$i]); $j++) {
-        if($matrix[$i][$j] == '0') {
-            $matrix[$i][$j] = 999;
-        }
-    }
-}
-for ($i = 0; $i < count($matrix); $i++) {
     $metka[$i] = 999;
 }
 $minindex = $start;
@@ -61,7 +54,7 @@ $index[0] = $start;
 $metka[$minindex] = 0;
 while ($minindex != -999) { 
     for ($i = 0; $i < count($matrix); $i++) {
-        if (!array_search($i, $index)) { 
+        if (!array_search($i, $index) && $matrix[$minindex][$i] != '0') { 
             $temp = $metka[$minindex] + $matrix[$minindex][$i];
             if ($metka[$i] > $temp) {
                 $metka[$i] = $temp;
