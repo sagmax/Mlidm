@@ -10,6 +10,7 @@
     <textarea style = "width: 220px; height: 123px;" id="matrix" name = "matrix" placeholder="Введите матрицу смежности"><?=$_POST['matrix']?></textarea><br>
     <input type="submit" value="Рассчитать">
     <p>
+    Пример ввода: <br>
     0 0 1 0<br>
     0 0 0 0<br>
     0 1 0 1<br>

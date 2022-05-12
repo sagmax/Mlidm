@@ -14,11 +14,14 @@
     <input style = "width: 80px; margin-left: 8px" type = "text" name = "end"  value = '<?= $_POST[end]?>'><br>
     <input type="submit" value="Рассчитать">
     <p>
+    Пример ввода: <br>
     0 2 3 4 10 <br>
     1 0 0 1 0<br>
     0 3 0 2 0<br>
     0 0 1 0 5<br>
-    0 3 0 0 0
+    0 3 0 0 0<br>
+    1<br>
+    5
     </p>
 </form>
 
@@ -38,13 +41,6 @@ for($i = 0; $i < count($matrix); $i++) {
     if (count($matrix) != count($matrix[$i])) {
         exit('Матрица введена неверно');
     }
-}
-for ($i = 0; $i < count($matrix); $i++) {
-    for ($j = 0; $j < count($matrix); $j++) {
-        echo($matrix[$i][$j]);
-        echo(" ");
-    }
-    echo("<br>");
 }
 for ($i = 0; $i < count($matrix); $i++) {
     $metka[$i] = 999;

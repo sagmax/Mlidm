@@ -26,6 +26,10 @@
             </tr>
          </form>
         </table>
+        Пример ввода: <br>
+            1 2 3 <br>
+            a b <br>
+            1 a 2 b 3 b
     <p id="outResult"></p>
 </body>
 </html>
