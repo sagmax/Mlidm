@@ -2,13 +2,6 @@ body {
     
     margin: 0%;
 }
-@media (max-width: 600px) {
-
-    body {
-        display: inline;
-    }
-}
-
 .b {
     font-size: 1.7rem;
     color: brown;
@@ -102,7 +95,4 @@ canvas {
     padding-top: 3%;
     color: rgba(255, 255, 255, 0.8);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-th{
-    margin-left: 5%;
 }

@@ -10,21 +10,21 @@
 </head>
 
 <body>
-<div class="Main">
+<div id="back" class="Main">
     <div class="column1">
-        <a href="oblozhka.php" class="b">ProMenya</a>
+        <a href="oblozhka.php?id=-1" id="sl1" class="b">ProMenya</a>
     </div>
     <div class="column2">
-        <a href="mainMenu.php" class="ctr"> Главная </a>
-        <a href="mlidm.php" class="ctr"> Лабы по Млидм </a>
-        <a href="gallery.php"class="ctr">Галерея</a> 
-        <a href="contacts.php"class="ctr">Контакты</a> 
+        <a href="mainMenu.php?id=-2"id="sl2" class="ctr"> Главная </a>
+        <a href="mlidm.php?id=-3" id="sl3" class="ctr"> Лабы по Млидм </a>
+        <a href="gallery.php?id=-4" id="sl4" class="ctr">Галерея</a> 
+        <a href="contacts.php?id=-5" id="sl5" class="ctr">Контакты</a> 
         <?php if(isset($_SESSION['logged_user'])): ?>
-            <a href="/site/php_js/redaction.php"class="ctr"><?php echo $_SESSION['logged_user']->login;?></a>
+            <a href="redaction.php?id=-6" id="sl6" class="ctr"><?php echo $_SESSION['logged_user']->login;?></a>
         <?php else: ?>
-            <a href="/site/php_js/avtorizacia.php"class="ctr">Вход</a>
+            <a href="avtorizacia.php?id=-7" id="sl6" class="ctr">Вход</a>
         <?php endif; ?> 
-        <div class="colocol" onclick="alert('динь-динь')">
+        <div class="colocol" id="colocol">
             <img src='/site/img/icon1.png'>
         </div>   
     </div>

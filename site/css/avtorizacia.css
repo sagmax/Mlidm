@@ -73,13 +73,7 @@ body{
     margin-right: 0;
     padding-left: 0;
 }
-.Main{
-    border-bottom: 2px solid rgba(202, 12, 12, 0.718);
-    background-color: rgb(31, 29, 29);
-    height: 70px;
-    width: 100%;
-    display: flex; 
-justify-content: space-around;}
+
 str {
     margin-left: 0.6%;  
 }
@@ -88,6 +82,14 @@ str {
     color: brown;
     text-decoration: none;
 }
+.Main{
+    position: relative;
+    border-bottom: 2px solid rgba(202, 12, 12, 0.718);
+    background-color: rgb(31, 29, 29);
+    height: 70px;
+    width: 100%;
+    display: flex; 
+justify-content: space-between;flex-direction: row;}
 .column2 {
     font-size: 1.6rem; 
    padding-right: 50px;

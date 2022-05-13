@@ -11,49 +11,50 @@
 </head>
 <canvas id="canvas"></canvas>
 <script src="matrix.js"></script>
-<body>
-<div class="Main">
+
+<body id="body" class=2>
+<div id="back" class="Main">
     <div class="column1">
-        <a href="oblozhka.php" class="b">ProMenya</a>
+        <a href="oblozhka.php" id="sl1" class="b">ProMenya</a>
     </div>
     <div class="column2">
-        <a href="mainMenu.php" class="ctr"> Главная </a>
-        <a href="mlidm.php" class="ctr"> Лабы по Млидм </a>
-        <a href="gallery.php"class="ctr">Галерея</a> 
-        <a href="contacts.php"class="ctr">Контакты</a> 
+        <a href="mainMenu.php"id="sl2" class="ctr"> Главная </a>
+        <a href="mlidm.php" id="sl3" class="ctr"> Лабы по Млидм </a>
+        <a href="gallery.php" id="sl4" class="ctr">Галерея</a> 
+        <a href="contacts.php" id="sl5" class="ctr">Контакты</a> 
         <?php if(isset($_SESSION['logged_user'])): ?>
-            <a href="redaction.php"class="ctr"><?php echo $_SESSION['logged_user']->login;?></a>
+            <a href="redaction.php" id="sl6" class="ctr"><?php echo $_SESSION['logged_user']->login;?></a>
         <?php else: ?>
-            <a href="avtorizacia.php"class="ctr">Вход</a>
+            <a href="avtorizacia.php" id="sl6" class="ctr">Вход</a>
         <?php endif; ?> 
-        <div class="colocol" onclick="alert('динь-динь')">
+        <div class="colocol" id="colocol">
             <img src='/site/img/icon1.png'>
         </div>   
     </div>
 </div>
 
 <div class="Tema">
-    <div class="Photo">
+    <div id="Photo" class="Photo">
         <img class="Iam" src='/site/img/MyPhoto.jpg'>
     </div>
-    <div class="Cherta">
+    <div id="Cherta" class="Cherta">
        
     </div>
     <div class="Text">
-        <div class="MainStroka">
+        <div id="MainStroka" class="MainStroka">
             Здесь вы узнаете что же я люблю делать..
         </div>
         <div class="Stroki">
         <br><br><br>
-            <th> 1. Играть в машинки </th><br>
+            <t id="Stroka1"> 1. Играть в машинки </t><br>
             <br><br><br><br>
-            <th> 2. Рисовать на бумаге</th><br>
+            <t id="Stroka2"> 2. Рисовать на бумаге</t><br>
             <br><br><br><br>
-            <th> 3. Лазить по лестнице</th><br><br><br><br><br>
+            <t id="Stroka3"> 3. Лазить по лестнице</t><br><br><br><br><br>
 
         </div>
     </div>
 </div>
 </body>
-
+<script src="event.js"></script>
 </html>

@@ -9,22 +9,22 @@
     <link rel="stylesheet" href="/site/css/registracia.css">
 </head>
 
-<body>
-<div class="Main">
+<body id="body" class=7>
+<div id="back" class="Main">
     <div class="column1">
-        <a href="Oblozhka.php" class="b">ProMenya</a>
+        <a href="oblozhka.php" id="sl1" class="b">ProMenya</a>
     </div>
     <div class="column2">
-        <a href="mainMenu.php" class="ctr"> Главная </a>
-        <a href="mlidm.php" class="ctr"> Лабы по Млидм </a>
-        <a href="gallery.php"class="ctr">Галерея</a> 
-        <a href="contacts.php"class="ctr">Контакты</a> 
+        <a href="mainMenu.php"id="sl2" class="ctr"> Главная </a>
+        <a href="mlidm.php" id="sl3" class="ctr"> Лабы по Млидм </a>
+        <a href="gallery.php" id="sl4" class="ctr">Галерея</a> 
+        <a href="contacts.php" id="sl5" class="ctr">Контакты</a> 
         <?php if(isset($_SESSION['logged_user'])): ?>
-            <a href="redaction.php"class="ctr"><?php echo $_SESSION['logged_user']->login;?></a>
+            <a href="redaction.php" id="sl6" class="ctr"><?php echo $_SESSION['logged_user']->login;?></a>
         <?php else: ?>
-            <a href="avtorizacia.php"class="ctr">Вход</a>
+            <a href="avtorizacia.php" id="sl6" class="ctr">Вход</a>
         <?php endif; ?> 
-        <div class="colocol" onclick="alert('динь-динь')">
+        <div class="colocol" id="colocol">
             <img src='/site/img/icon1.png'>
         </div>   
     </div>
@@ -69,22 +69,23 @@
    }
     ?>
 <form action="registracia.php" method="post">
-    <div class="avtorizacia">	
+    <div id="avtorizacia" class="avtorizacia">	
         <div class="verh">
             <ul class="spisok" >
-                <li div class="slovo">Регистрация</li>
+                <li id="slovo" div class="slovo">Регистрация</li>
             </ul>
         </div>
-        <input name="user_type" type="text" class="avtorizaciya" placeholder="Admin - 1/ user - 0" value="<?php echo @$data['user_type']?>"><Br>
-        <input name="FIO" type="text" class="avtorizaciya" placeholder="FIO" value="<?php echo @$data['FIO']?>"><Br>      
-        <input name="login" type="text" class="avtorizaciya" placeholder="login" value="<?php echo @$data['login']?>"><Br>
-        <input name="pass1" type="password" class="avtorizaciya" placeholder="password" value="<?php echo @$data['pass1']?>"><Br>	
-        <input name="pass2" type="password" class="avtorizaciya" placeholder="password(again)"value="<?php echo @$data['pass2']?>"><Br>	 
-        <input name="submit"type="submit" class="avtorizaciy" placeholder="Отправить">
+        <input id="user_type" name="user_type" type="text" class="avtorizaciya" placeholder="Admin - 1/ user - 0" value="<?php echo @$data['user_type']?>"><Br>
+        <input id="FIO" name="FIO"  type="text" class="avtorizaciya" placeholder="FIO" value="<?php echo @$data['FIO']?>"><Br>      
+        <input id="login" name="login" type="text" class="avtorizaciya" placeholder="login" value="<?php echo @$data['login']?>"><Br>
+        <input id="pass1" name="pass1" type="password" class="avtorizaciya" placeholder="password" value="<?php echo @$data['pass1']?>"><Br>	
+        <input id="pass2" name="pass2" type="password" class="avtorizaciya" placeholder="password(again)"value="<?php echo @$data['pass2']?>"><Br>	 
+        <input id="submit" name="submit"type="submit" class="avtorizaciy" placeholder="Отправить">
         <div class="ssilku">
             <div class="ssilka"><a class="ssilka" href="oblozhka.php">На главную</a></div>
         </div>			
     </div>
 </form>	
 </body>
+<script src="event.js"></script>
 </html>
